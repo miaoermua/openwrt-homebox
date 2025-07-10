@@ -25,7 +25,7 @@ define Package/homebox
   SUBMENU:=Web Servers/Proxies
   TITLE:=homebox-bin
   URL:=https://github.com/XGHeaven/homebox
-  DEPENDS:=@TARGET_$(ARCH_DEP)
+  DEPENDS:=@TARGET_$(ARCH_DEP) +luci-compat
 endef
 
 define Package/homebox/description
