@@ -31,7 +31,7 @@ define Package/homebox
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=Web Servers/Proxies
-  TITLE:=Homebox backend
+  TITLE:=Homebox-bin
   URL:=https://github.com/XGHeaven/homebox
   DEPENDS:=@TARGET_$(ARCH_DEP)
 endef
