@@ -21,7 +21,8 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/homebox
   SECTION:=net
-  CATEGORY:=Web Servers/Proxies
+  CATEGORY:=Network
+  SUBMENU:=Web Servers/Proxies
   TITLE:=homebox-bin
   URL:=https://github.com/XGHeaven/homebox
   DEPENDS:=@TARGET_$(ARCH_DEP)
